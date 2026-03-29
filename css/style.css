@@ -1365,6 +1365,31 @@ body {
   /*Layer's solid color*/
 }
 
+.stform-actions {
+  margin-top: 2.4rem;
+}
+
+.stform-submit {
+  min-width: 18rem;
+  height: 4.8rem;
+  padding: 0 2rem;
+  border: 0;
+  background: #cd1719;
+  color: #ffffff;
+  font-size: 1.7rem;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.stform-submit:hover,
+.stform-submit:focus-visible {
+  opacity: 0.9;
+}
+
 .stgroup-4 {
   margin: 0 0 0 auto;
   position: relative;
