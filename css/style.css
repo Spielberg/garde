@@ -1471,12 +1471,15 @@ body {
 }
 
 .stlogotipos__grid {
+  --stlogo-col-gap: 3.2rem;
+  --stlogo-row-gap: 2.4rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem 1.25rem;
-  max-width: 100%;
+  gap: var(--stlogo-row-gap) var(--stlogo-col-gap);
+  max-width: 110rem;
+  margin: 0 auto;
 }
 
 .stlogotipos__cell {
@@ -1484,21 +1487,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 0 1 calc((100% - 1.25rem) / 2);
-  max-width: calc((100% - 1.25rem) / 2);
+  flex: 0 1 calc((100% - var(--stlogo-col-gap)) / 2);
+  max-width: calc((100% - var(--stlogo-col-gap)) / 2);
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
   .stlogotipos__cell {
-    flex: 0 1 calc((100% - 2.5rem) / 3);
-    max-width: calc((100% - 2.5rem) / 3);
+    flex: 0 1 calc((100% - (var(--stlogo-col-gap) * 2)) / 3);
+    max-width: calc((100% - (var(--stlogo-col-gap) * 2)) / 3);
   }
 }
 
 @media (min-width: 992px) {
   .stlogotipos__cell {
-    flex: 0 1 calc((100% - 5rem) / 5);
-    max-width: calc((100% - 5rem) / 5);
+    flex: 0 1 calc((100% - (var(--stlogo-col-gap) * 4)) / 5);
+    max-width: calc((100% - (var(--stlogo-col-gap) * 4)) / 5);
   }
 }
 

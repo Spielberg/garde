@@ -193,6 +193,10 @@
       color 0.25s ease;
   }
 
+  .stnav-links .sttext-2 {
+    margin: 0;
+  }
+
   .stnav-links a:hover,
   .stnav-links a:focus-visible {
     background: rgba(255, 255, 255, 0.15);
