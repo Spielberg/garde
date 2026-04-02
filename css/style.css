@@ -758,7 +758,7 @@ body {
 
 .stservicios-wrapper .strow-8-services {
   --bs-gutter-x: 2rem;
-  --bs-gutter-y: 2.5rem;
+  --bs-gutter-y: 5rem;
 }
 
 @media (min-width: 768px) {
