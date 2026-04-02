@@ -290,12 +290,11 @@ body {
 }
 
 .stfondo-cabecera-holder {
-  height: 13.5rem;
+  height: 10rem;
   padding: 0;
   position: relative;
   position: fixed;
   width: 100%;
-  top: 6rem;
   z-index: 1000;
   background: #26358c center center;
   -webkit-background-size: cover;
@@ -310,11 +309,11 @@ body {
 }
 
 .stmenu {
-  height: 13.5rem;
+  height: 10rem;
 }
 
 .stmenu-row {
-  height: 13.5rem;
+  height: 10rem;
 }
 
 .stmenu-row .col-md-8 {
